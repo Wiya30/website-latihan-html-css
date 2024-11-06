@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <h1 class="logo">LOGO</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">TENTANG</a></li>
+                    <li><a href="#services">SERVICES</a></li>
+                </ul>
+            </nav>
+            <button class="btn-cta" onclick="redirInstagram()">Follow Saya</button>
+        </div>
+        </header>
+    
+    <div class="container">
+        <div class="wrapper">
+            <p class="title">Hello, I'm Wilbert Yanto</p>
+            <p class="description">I'm a self taught Web Developer</p>
+            <img src="assets/images/wilbert.jpg" alt="wilbert picture" class="img-pic">
+        </div>
+    </div>
+    <div class="parallax">
+        <!-- Tentang -->
+        <div class="tentang">
+            <p class="title">Hello, I'm Wilbert Yanto</p>
+            <p class="description">I'm a self taught Web Developer</p>
+            <div class="mt-10">
+                <button class="btn-cta" onclick="redirWhatsapp()">Contact Me</button>
+            </div>
+        </div>
+
+        <!-- Hobi -->
+        <div class="container" id="services">
+            <div class="card" >
+                <!-- Item 1 -->
+                <div class="card-item">
+                    <img src="assets/icons/80-percent.png" alt="icon 1" class="icon">
+                    <p class="card-title">80% Discount</p>
+                    <p class="card-description">Book my service now and get 80% discount for all the total fee.</p>
+                </div>
+                <!-- Item 2 -->
+                <div class="card-item">
+                    <img src="assets/icons/best-deals.png" alt="icon 2" class="icon">
+                    <p class="card-title">Top Quality.</p>
+                    <p class="card-description">My service is proven by expert as top quality and full with security.</p>
+                </div>
+                <!-- Item 3 -->
+                <div class="card-item">
+                    <img src="assets/icons/hot-sale.png" alt="icon 3" class="icon">
+                    <p class="card-title">Hot Sale.</p>
+                    <p class="card-description">Book fast so you can get the lastest hot sale available.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+     <footer>
+        <p>Copyright &copy; Wilbert Yanto Website 2024</p>
+     </footer>
+
+     <script>
+        function redirInstagram() {
+            alert('Follow me at IG : @tes123')
+        }
+
+        function redirWhatsapp() {
+            alert('Contact my number : 0123456678')
+        }
+     </script>
+</body>
+</html>
